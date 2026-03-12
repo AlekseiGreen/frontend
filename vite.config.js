@@ -9,7 +9,8 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     server: {
       port: parseInt(env.PORT) || 5173,
-      open: true,
+      host: '0.0.0.0',
+      open: false,
       cors: true,
     }
   }
