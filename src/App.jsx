@@ -1,5 +1,6 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import Header from './components/Header/Header.jsx';
 
 function App() {
   const [result, setResult] = useState('')
@@ -25,20 +26,9 @@ function App() {
   }
 
   return (
-    <div style={{ padding: '20px' }}>
-      <h1>Тест подключения к API</h1>
-      <button onClick={testAPI}>
-        Отправить POST запрос на /api/user
-      </button>
-      <pre style={{ 
-        background: '#140808', 
-        padding: '10px', 
-        marginTop: '20px',
-        borderRadius: '5px'
-      }}>
-        {result || 'Нажмите кнопку для теста'}
-      </pre>
-    </div>
+    <>
+    <Header></Header>
+    </>
   )
 }
 
