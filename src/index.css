@@ -10,19 +10,13 @@
   padding:    0;
 }
 
-/* html {
+html {
   font-size: 16px;
-} */
-
-html, body {
-  height: 100%; /* ТЕПЕРЬ у страницы есть жесткая высота в 100% окна браузера */
-  margin: 0;
-  padding: 0;
 }
 
-/* body {
+body {
   font-family:  Arial, sans-serif;
   line-height:  1.6;
   color:        var(--dark);
   background:   var(--light);
-} */
+}

@@ -1,21 +1,36 @@
+:root {
+  --width_max1200: 1200px;
+  --width_min320: 320px;
+  --width_100p: 100%;
+}
 
 .flex-wrapper{
   border: 1px solid rgb(13, 7, 24);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  min-height: 100vh;
+  align-items: center;
 }
 
 .flex-header{
   border: 1px solid rgb(13, 7, 24);
+  width: var(--width_100p);
+  max-width: var(--width_max1200);
+  min-width: var(--width_min320);
 }
 
 .flex-content{
   border: 1px solid rgb(13, 7, 24);
+  width: var(--width_100p);
+  max-width: var(--width_max1200);
+  min-width: var(--width_min320);
   flex-grow: 1;
 }
 
 .flex-footer{
   border: 1px solid rgb(13, 7, 24);
+  width: var(--width_100p);
+  max-width: var(--width_max1200);
+  min-width: var(--width_min320);
 }
