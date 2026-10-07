@@ -1,12 +1,21 @@
-.wrapper {
-  max-width: 1200px;
-  min-width: 320px;
-  border: 1px solid rgb(100, 15, 238);
-  margin: 0 auto;
-}
 
-.app-wrapper{
+.flex-wrapper{
+  border: 1px solid rgb(13, 7, 24);
   display: flex;
   flex-direction: column;
-  min-height: 100%; /* Заставит контейнер растянуться на всю высоту html/body */
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.flex-header{
+  border: 1px solid rgb(13, 7, 24);
+}
+
+.flex-content{
+  border: 1px solid rgb(13, 7, 24);
+  flex-grow: 1;
+}
+
+.flex-footer{
+  border: 1px solid rgb(13, 7, 24);
 }

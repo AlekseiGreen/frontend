@@ -28,10 +28,10 @@ function App() {
   }
 
   return (
-    <div className='app-wrapper'>
-      <Header></Header>
-      <Content></Content>
-      <Footer></Footer>
+    <div className='flex-wrapper'>
+      <Header ></Header>
+      <Content ></Content>
+      <Footer ></Footer>
     </div>
   )
 }
